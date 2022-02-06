@@ -1,5 +1,5 @@
 {
   "autoload": {
-    "psr-4": {"ProductImporter\\": "src/"}
+    "psr-4": {"ProductFeeder\\": "src/"}
   }
 }

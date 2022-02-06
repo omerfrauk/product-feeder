@@ -1,6 +1,6 @@
 <?php
 
-namespace ProductImporter\Utils;
+namespace ProductFeeder\Utils;
 
 class Utility {
 

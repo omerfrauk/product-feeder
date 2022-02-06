@@ -1,6 +1,6 @@
 <?php
 
-namespace ProductImporter\Adapter\Platform;
+namespace ProductFeeder\Adapter\Platform;
 
 class Google implements Platform {
 

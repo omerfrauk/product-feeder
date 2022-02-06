@@ -1,6 +1,6 @@
 <?php
 
-namespace ProductImporter\Adapter\Output;
+namespace ProductFeeder\Adapter\Output;
 
 class Json implements Output {
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace ProductImporter\Factory;
+namespace ProductFeeder\Factory;
 
-use ProductImporter\Adapter\Platform\Platform;
-use ProductImporter\Adapter\Platform\Facebook;
-use ProductImporter\Adapter\Platform\Google;
+use ProductFeeder\Adapter\Platform\Platform;
+use ProductFeeder\Adapter\Platform\Facebook;
+use ProductFeeder\Adapter\Platform\Google;
 
  class VendorFactory {
 

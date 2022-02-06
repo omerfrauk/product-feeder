@@ -1,6 +1,6 @@
 <?php
 
-namespace ProductImporter\Adapter\Platform;
+namespace ProductFeeder\Adapter\Platform;
 
 interface Platform {
     public function normalize(array $products);

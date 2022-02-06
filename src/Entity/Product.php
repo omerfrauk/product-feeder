@@ -1,6 +1,6 @@
 <?php
 
-namespace ProductImporter\Entity;
+namespace ProductFeeder\Entity;
 
 class Product {
 

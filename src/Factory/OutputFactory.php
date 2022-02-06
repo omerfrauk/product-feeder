@@ -1,10 +1,10 @@
 <?php
 
-namespace ProductImporter\Factory;
+namespace ProductFeeder\Factory;
 
-use ProductImporter\Adapter\Output\Json;
-use ProductImporter\Adapter\Output\Output;
-use ProductImporter\Adapter\Output\Xml;
+use ProductFeeder\Adapter\Output\Json;
+use ProductFeeder\Adapter\Output\Output;
+use ProductFeeder\Adapter\Output\Xml;
 
 class OutputFactory {
 

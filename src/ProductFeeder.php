@@ -1,11 +1,11 @@
 <?php
 
-namespace ProductImporter;
+namespace ProductFeeder;
 
-use ProductImporter\Factory\OutputFactory;
-use ProductImporter\Factory\VendorFactory;
+use ProductFeeder\Factory\OutputFactory;
+use ProductFeeder\Factory\VendorFactory;
 
-class ProductImporter {
+class ProductFeeder {
 
     private $vendorFactory;
     private $outputFactory;
@@ -18,7 +18,7 @@ class ProductImporter {
     public function export(Array $products, $platformName = null, $outputType = "json") {
 
         if($platformName) {
-            if(!class_exists("ProductImporter\\Adapter\\Platform\\".$platformName)) {
+            if(!class_exists("ProductFeeder\\Adapter\\Platform\\".$platformName)) {
                 throw new \Exception("Built-in Platform Not Found",1200);
             }
         }

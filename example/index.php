@@ -1,9 +1,9 @@
 <?php
     require_once("../vendor/autoload.php");
 
-    use ProductImporter\Utils\Utility;
-    use ProductImporter\Entity\Product;
-    use ProductImporter\ProductImporter;
+    use ProductFeeder\Utils\Utility;
+    use ProductFeeder\Entity\Product;
+    use ProductFeeder\ProductFeeder;
 
 
     $utility = new Utility();
@@ -14,9 +14,9 @@
         $products[] = new Product($product->id, $product->name, $product->price, $product->category);
     }
 
-    $productImporter = new ProductImporter();
+    $productFeeder = new ProductFeeder();
     try {
-        $export = $productImporter->export($products, 'Facebook', 'Xml');
+        $export = $productFeeder->export($products, 'Facebook', 'Xml');
         print_r($export);
     }
     catch (\Exception $exception) {
