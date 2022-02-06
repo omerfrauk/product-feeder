@@ -1,5 +1,5 @@
-# product-importer
-Create product-importer for Google,Facebook,Cimri etc.
+# product-feeder
+Create product-feeder for Google,Facebook,Cimri etc.
 
 Getting Started
 composer install for autloading files.
